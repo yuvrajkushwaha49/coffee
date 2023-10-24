@@ -1,0 +1,326 @@
+body{
+    color: #666;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 1.80857;
+    font-weight: 400;
+    overflow-x: hidden!important
+}
+.navbar-collapse{
+    flex-grow: 0 !important; 
+}
+.container-fluid{
+    height: 50px;
+}
+.nav-link{
+    color: white !important;
+    line-height: 1.80857;
+    font-weight: 400;
+    
+}
+.nav-link{
+    font-size: 22px !important  ; 
+}
+.active{
+    color: sienna !important;
+    font-size: 22px !important  ; 
+}
+
+.navbar-brand{
+    padding: 10px !important     ;
+}
+.slider-image{
+    width: 100%;
+    height: 800px;
+    float: left;
+    background-image: url(../images/banner-bg.png);
+    
+    background-size: 100%;
+    padding: 10px 0 25px 0;
+    background-repeat: no-repeat;
+}
+.slider-text{
+    
+    width: 62%;
+}
+#slit-de{
+    margin: 21% 0 !important;
+
+}
+#Outstanding{
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+}
+#coffee-shop{
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 25px 0px;
+
+}
+
+#learn-more-btn{
+    background: black;
+    color: white;
+    padding: 8px 31px;
+    font-size: 15px;
+    border: none;
+}
+#learn-more-btn:hover{
+    background: #f76d37;
+}
+
+
+#slide-para{
+    color: white;
+    font-size: 17px;
+}
+
+
+
+.about-usss {
+    display: inline-flex;
+    margin: 0px 9%;
+}
+.aboutside{
+    width: 50%;
+}
+#about-img{
+    width: 100%;
+    height: 80%;
+    box-shadow: 0px 0px 14px 12px #888888;
+    border-radius: 13px;
+
+}
+#aboutsideid{
+    padding: 10% 0;
+    padding-right: 100px;
+}
+#aboutsideid h1{
+    color: #f76d37;
+    font-weight: 700;
+
+}
+
+.paragraph{
+    font-weight: 300;
+}
+.gallary{
+    margin: 0px 9%
+}
+.gallary-text h1{
+    color: #f76d37;
+    font-weight: 700;
+    text-align: center;
+}
+.paragraph2{
+    font-weight: 400;
+    text-align: center;
+    margin: 35px
+}
+.gallary-photo{
+    display: flex;
+    height: auto;
+}
+.polaroiddd {
+    padding: 25px;
+}
+.polaroiddd img{
+    width: 350px !important;
+    height: 350px; 
+    border-radius: 10px;
+}
+.container{
+    text-align: center;
+}
+#seemore{
+    justify-content: center;
+}
+#seemore{
+    text-align: center;
+}
+.service-bg-image{
+    width: 100%;
+    height: 800px;
+    float: left;
+    background-image: url(../images/services-bg.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 10px 0 25px 0;
+    background-repeat: no-repeat;
+    margin: 60px 0 ;
+    
+}
+#servic-h1{
+    color: white;
+    text-align: center;
+    margin: 37px 0;
+}
+.service-text p{
+    color: white;
+    text-align: center;
+
+}
+.service{
+    display: flex;
+    margin: 6% 16%
+}
+.side{
+    margin: 17px;
+    background-color: #f76d37;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.service-txt{
+    margin: 19px 0;
+}
+.service-img{
+    margin: 19px;
+}
+
+.service-para{
+    margin: 30px 0;
+}
+#left-side{
+        padding: 43px 20px;
+
+}
+#mid-side{
+    padding: 9px 20px;
+
+}
+#right-side{
+    padding: 0 20px;
+}
+
+.servic-btn{
+    display: none;
+}
+.side:hover{
+    background-color: white;
+}
+.side:hover .service-para{
+    color: black;
+}
+.side:hover .service-txt{
+    color: black;
+}
+
+.side:hover .servic-btn{
+    display: block;
+}
+.slider-none{
+    position: absolute;
+    
+    bottom: 3.25rem;
+    padding: 0 11%;
+    
+     
+    }
+    .client-name{
+        width: 100%;
+        float: left;
+        font-size: 24px;
+        color: #f76d37;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+.testimonial-para{
+    color: black !important;
+    font-size: 18px;
+    margin-bottom: 3rem !important;
+}
+.carousel-control-prev-icon-color{
+    color: black !important;
+    background-color: black !important;
+}
+
+/* ?\Contant */
+.contact-main{
+    width: 100%;
+}
+.contact-sides{
+    display: flex;
+}
+.contact-side{
+    width: 50%;
+}
+#gallary-left-side{
+    background-image: url(../images/img-9.png);
+
+}
+.contant-form{
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-input{
+    color: #080707;
+    width: 90%;
+    height: 55px;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 30px;
+    margin: 10px;
+}
+.massage-bt{
+    color: #080707;
+    width: 90%;
+    height: 150px;
+    font-size: 20px;
+    padding: 40px;
+    border: 0;
+    border-radius: 50px;
+    margin: 20px;
+
+}
+#contact-more-btn{
+    background: #f76d37;
+    color: white;
+    padding: 8px 31px;
+    font-size: 15px;
+    border: none;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+#contact-more-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#footers{
+    background-color: #252525;
+    color: white;
+    margin: 13px 0px;
+}
+.footer-main{
+    display: flex;
+    padding: 6% 13%;
+    
+
+}
+.footer-side{
+    width: 25%;
+}
+.footer-list{
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+.slider-none-f{
+    position: absolute;
+    
+    bottom: 3.25rem;
+    padding: 0 11%;
+    
+     
+    }
+
